@@ -44,9 +44,15 @@ The main conclusion is that a single-rate Poisson model is a useful baseline, bu
 
 ### Requirements
 
-- Python 3
-- Jupyter Notebook
-- `matplotlib`
+- Python `3.14.7`
+- matplotlib `3.11.2`
+
+The versions can be checked with:
+
+```bash
+python --version
+conda list matplotlib
+```
 
 ### Run
 
@@ -56,4 +62,4 @@ The main conclusion is that a single-rate Poisson model is a useful baseline, bu
 From a terminal, the notebook can be run with:
 
 ```bash
-jupyter notebook
+jupyter notebook project.ipynb
